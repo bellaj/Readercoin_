@@ -127,13 +127,13 @@ public:
        // assert(genesis.hashMerkleRoot == uint256S("0x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b"));
         assert(genesis.hashMerkleRoot == uint256S("0x6bc2585d63185acf3868cc34e0b017b3fb41c00938eb09bc52a3cf73a31ec6a8"));
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.emplace_back("seed.readercoin.sipa.be", true); // Pieter Wuille, only supports x1, x5, x9, and xd
+        /*vSeeds.emplace_back("seed.readercoin.sipa.be", true); // Pieter Wuille, only supports x1, x5, x9, and xd
         vSeeds.emplace_back("dnsseed.bluematt.me", true); // Matt Corallo, only supports x9
         vSeeds.emplace_back("dnsseed.readercoin.dashjr.org", false); // Luke Dashjr
         vSeeds.emplace_back("seed.readercoinstats.com", true); // Christian Decker, supports x1 - xf
         vSeeds.emplace_back("seed.readercoin.jonasschnelli.ch", true); // Jonas Schnelli, only supports x1, x5, x9, and xd
         vSeeds.emplace_back("seed.rdc.petertodd.org", true); // Peter Todd, only supports x1, x5, x9, and xd
-
+*/
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,0);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,128);
@@ -232,10 +232,10 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("testnet-seed.readercoin.jonasschnelli.ch", true);
+       /* vSeeds.emplace_back("testnet-seed.readercoin.jonasschnelli.ch", true);
         vSeeds.emplace_back("seed.trdc.petertodd.org", true);
         vSeeds.emplace_back("testnet-seed.bluematt.me", false);
-
+*/
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
