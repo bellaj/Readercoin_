@@ -1,13 +1,13 @@
 *.tar.gz
 
 *.exe
-src/bitcoin
-src/bitcoind
-src/bitcoin-cli
-src/bitcoin-tx
-src/test/test_bitcoin
-src/test/test_bitcoin_fuzzy
-src/qt/test/test_bitcoin-qt
+src/readercoin
+src/readercoind
+src/readercoin-cli
+src/readercoin-tx
+src/test/test_readercoin
+src/test/test_readercoin_fuzzy
+src/qt/test/test_readercoin-qt
 
 # autoreconf
 Makefile.in
@@ -30,8 +30,8 @@ config.log
 config.status
 configure
 libtool
-src/config/bitcoin-config.h
-src/config/bitcoin-config.h.in
+src/config/readercoin-config.h
+src/config/readercoin-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -74,12 +74,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-bitcoin-qt
-Bitcoin-Qt.app
+readercoin-qt
+Readercoin-Qt.app
 
 # Unit-tests
 Makefile.test
-bitcoin-qt_test
+readercoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -92,7 +92,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_bitcoin.coverage/
+test_readercoin.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -107,5 +107,5 @@ test/cache/*
 
 /doc/doxygen/
 
-libbitcoinconsensus.pc
+libreadercoinconsensus.pc
 contrib/devtools/split-debug.sh

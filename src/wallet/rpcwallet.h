@@ -1,9 +1,9 @@
-// Copyright (c) 2016 The Bitcoin Core developers
+// Copyright (c) 2016 The Readercoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_WALLET_RPCWALLET_H
-#define BITCOIN_WALLET_RPCWALLET_H
+#ifndef READERCOIN_WALLET_RPCWALLET_H
+#define READERCOIN_WALLET_RPCWALLET_H
 
 class CRPCTable;
 class JSONRPCRequest;
@@ -22,4 +22,4 @@ std::string HelpRequiringPassphrase(CWallet *);
 void EnsureWalletIsUnlocked(CWallet *);
 bool EnsureWalletIsAvailable(CWallet *, bool avoidException);
 
-#endif //BITCOIN_WALLET_RPCWALLET_H
+#endif //READERCOIN_WALLET_RPCWALLET_H

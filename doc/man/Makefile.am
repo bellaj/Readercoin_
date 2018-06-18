@@ -1,13 +1,13 @@
 dist_man1_MANS=
 
-if BUILD_BITCOIND
-  dist_man1_MANS+=bitcoind.1
+if BUILD_READERCOIND
+  dist_man1_MANS+=readercoind.1
 endif
 
 if ENABLE_QT
-  dist_man1_MANS+=bitcoin-qt.1
+  dist_man1_MANS+=readercoin-qt.1
 endif
 
-if BUILD_BITCOIN_UTILS
-  dist_man1_MANS+=bitcoin-cli.1 bitcoin-tx.1
+if BUILD_READERCOIN_UTILS
+  dist_man1_MANS+=readercoin-cli.1 readercoin-tx.1
 endif
