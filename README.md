@@ -1,5 +1,6 @@
 Readercoin is a Bitcoin Fork
 =====================================
+![alt text](https://image.ibb.co/b4Ln9o/readercoinx.png)
 
 What is Readercoin?
 ----------------
